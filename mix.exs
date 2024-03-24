@@ -49,7 +49,7 @@ defmodule Solana.MixProject do
   defp deps do
     [
       # base client
-      {:tesla, "~> 1.4.0"},
+      {:tesla, "~> 1.7.0"},
       # json library
       {:jason, ">= 1.0.0"},
       # keys and signatures
@@ -57,7 +57,7 @@ defmodule Solana.MixProject do
       # base58 encoding
       {:basefiftyeight, "~> 0.1.0"},
       # validating parameters
-      {:nimble_options, "~> 0.4.0"},
+      {:nimble_options, "~> 1.0"},
       # docs and testing
       {:ex_doc, "~> 0.25.5", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false}
